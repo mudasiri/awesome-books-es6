@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Books</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav>
+        <header>Awesome Books</header>
+        <ul class="nav-links">
+            <li class="nav-link" id="list">List</li>
+            <li class="nav-link" id="addnew">Add new</li>
+            <li class="nav-link" id="contact">Contact</li>
+        </ul>
+    </nav>
+    <p class="date"></p>
+    <section class="area">
+    <h3>Add a New Book</h3>
+
+    <form id="bookForm">
+        <input type="text" placeholder="title" id="title" maxlength="30">
+        <br><br>
+        <input type="text" placeholder="Author" id="author" maxlength="30">
+        <br><br>
+        <button id="add" type="submit">Add</button>
+    </form>
+    </section>
+    <section class="show-book-list">
+        <h1>All Awesome Books</h1>
+        <ul class="books-show books-list">
+        </ul>
+    </section>
+    <section class="contact-me">
+        <div class="container-contact-me">
+            <h3 class="contact-h3">Contact Information</h3>
+            <p>Do you want to contact me? Do you have any questions to ask me? You can reach out to me via this methods</p>
+            <ul>
+                <li>Our email: muda@nonihub.org</li>
+                <li>My Phone Number +233542986823</li>
+                <li>Our address street name: Tamale , Ghana</li>
+            </ul>
+        </div>
+        
+    </section>
+
+    <footer>
+        <p>Copyright Website Developed by Muda 2022</p>
+    </footer>
+    <script type="module"src="index.js"></script>
+</body>
+</html>

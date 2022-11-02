@@ -1,0 +1,103 @@
+body {
+  margin: 0 auto;
+}
+
+.books-list {
+  list-style-type: none;
+  padding: 8px;
+  display: none;
+  width: 90%;
+  border: 2px solid black;
+}
+
+.area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+li {
+  height: 45px;
+}
+
+button {
+  width: 70px;
+  height: 30px;
+}
+
+li p {
+  float: left;
+  margin-top: 6px;
+}
+
+li button {
+  float: right;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+  border: 1px solid black;
+  padding: 0 10px 0 10px;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
+  list-style-type: none;
+  gap: 10px;
+  margin: 0;
+  position: relative;
+  top: 13px;
+}
+
+.contact-me {
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.container-contact-me {
+  width: 70%;
+}
+
+.contact-h3 {
+  text-align: center;
+  padding: 25px;
+  font-size: 25px;
+}
+
+.show-book-list {
+  /* display: flex; */
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  display: none;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  margin: 10px;
+  border: 1px solid black;
+  display: block;
+  width: 98%;
+  padding-left: 10px;
+}
+
+.date {
+  display: flex;
+  align-content: flex-end;
+  margin: 10px;
+}
